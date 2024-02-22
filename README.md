@@ -1,2 +1,2 @@
 # landing-page
-Testing the git commit once again.
+Testing the git commit once again

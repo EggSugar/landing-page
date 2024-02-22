@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+.header,
+.body {
+    background-color: rgb(27, 34, 54);
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+
+.button {
+    background-color: aqua;
+    color: white;
+}
+
+.header-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 150px;
+}
+
+.content {
+    font: italic;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: rgba(34, 45, 75, 0.548);
+    color: white;
+}
